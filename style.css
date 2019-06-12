@@ -12,6 +12,14 @@ img {
     width: 100%;
 }
 
+p {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #555684;
+}
+
 /*2. MENU INDSTILLINGER*/
 
 nav {
@@ -26,29 +34,33 @@ nav {
 /*3. SPLASH INDSTILLINGER*/
 
 #splash {
-
-    top: 3vw;
     width: 100%;
     height: 100%;
+    margin-bottom: 100px;
+
 
 }
 
+.splash_img {}
+
 .animation1 {
     position: absolute;
+    top: 100px;
     width: 100%;
+    height: 100%;
+    font-size: 40px;
     text-align: center;
-    top: 200px;
-    font-size: 50px;
+
 
 
 }
 
 .animation2 {
     position: absolute;
-    width: 100%;
-    text-align: center;
-    top: 650px;
-    font-size: 20px;
+    width: 50px;
+    top: 700px;
+    left: 47vw;
+
 
 
 }
@@ -56,15 +68,17 @@ nav {
 /*4. PORTFOLIO INDSTILLINGER*/
 
 #my_work {
-    margin-top: 100px;
     width: 100%;
 }
 
 .sectionwrapper {
-    margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.my_work_overskrift {
+    padding-left: 10px;
 }
 
 .opgave1 {
@@ -136,6 +150,7 @@ nav {
     background-image: url(images/omg_baggrund.png);
     background-size: cover;
     justify-content: space-around;
+    padding-bottom: 50px;
 
 
 
@@ -148,10 +163,77 @@ nav {
 .mig_img {
     flex-basis: 300px;
 
+
 }
 
 .mig_txt {
     text-align: left;
     flex-basis: 1000px;
+    padding: 20px;
+    padding-right: 70px;
 
+}
+
+/*6. CV SECTION*/
+
+.sectionwrapper2 {
+    margin: 0;
+    margin-top: 100px;
+    ;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #CCCCCC;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+
+}
+
+
+
+.cv_txt {
+    width: 100%;
+    text-align: center;
+
+}
+
+.knap {
+    width: 100px;
+    padding: 10px;
+    background-color: #F3EBEE;
+    text-align: center;
+
+}
+
+/*7.FOOTER */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 200px;
+    padding-top: 50px;
+    background-color: #555684;
+}
+
+.sectionwrapper3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.logo1 {
+    width: 15px;
+}
+
+.logo {
+    width: 30px;
+}
+
+.footer_txt {
+    width: 100%;
+    text-align: center;
+    color: white;
 }
