@@ -1,0 +1,157 @@
+/*1. GENERELLE INDSTILLINGER*/
+
+body {
+    margin: 0;
+    background-color: #CDC0C5;
+    color: #707070;
+
+
+}
+
+img {
+    width: 100%;
+}
+
+/*2. MENU INDSTILLINGER*/
+
+nav {
+    position: absolute;
+    background-color: white;
+    height: 3vw;
+    width: 100vw;
+    padding: 10px;
+
+}
+
+/*3. SPLASH INDSTILLINGER*/
+
+#splash {
+
+    top: 3vw;
+    width: 100%;
+    height: 100%;
+
+}
+
+.animation1 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 200px;
+    font-size: 50px;
+
+
+}
+
+.animation2 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 650px;
+    font-size: 20px;
+
+
+}
+
+/*4. PORTFOLIO INDSTILLINGER*/
+
+#my_work {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.sectionwrapper {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.opgave1 {
+    flex-basis: 400px;
+    height: 270px;
+    flex-basis: 20;
+    border: 1px solid white;
+    margin-bottom: 50px;
+    background-image: url(images/stilartsite_cover.png);
+    background-size: cover;
+}
+
+.opgave2 {
+    flex-basis: 400px;
+    height: 270px;
+    flex-basis: 20;
+    border: 1px solid white;
+    margin-bottom: 50px;
+    background-image: url(images/fckfc_cover.png);
+    background-size: cover;
+}
+
+.opgave3 {
+    flex-basis: 400px;
+    height: 270px;
+    flex-basis: 20;
+    border: 1px solid white;
+    margin-bottom: 50px;
+    background-image: url(images/kealife_cover.png);
+    background-size: cover;
+}
+
+.opgave4 {
+    flex-basis: 400px;
+    height: 270px;
+    flex-basis: 20;
+    border: 1px solid white;
+    margin-bottom: 50px;
+}
+
+.opgave5 {
+    flex-basis: 400px;
+    height: 270px;
+    flex-basis: 20;
+    border: 1px solid white;
+    margin-bottom: 50px;
+}
+
+.opgave6 {
+    flex-basis: 400px;
+    height: 270px;
+    flex-basis: 20;
+    border: 1px solid white;
+    margin-bottom: 50px;
+}
+
+/*5. OM MIG*/
+
+#om_mig {
+    padding-top: 10px;
+    background-color: #F3EBEE;
+    text-align: center;
+}
+
+.sectionwrapper1 {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(images/omg_baggrund.png);
+    background-size: cover;
+    justify-content: space-around;
+
+
+
+}
+
+.overskrift {
+    width: 100%;
+}
+
+.mig_img {
+    flex-basis: 300px;
+
+}
+
+.mig_txt {
+    text-align: left;
+    flex-basis: 1000px;
+
+}
