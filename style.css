@@ -23,13 +23,29 @@ h1 {
 /*2. MENU INDSTILLINGER*/
 
 nav {
+    display: flex;
     position: absolute;
     background-color: white;
-    height: 3vw;
     width: 100vw;
-    padding: 10px;
+    align-content: stretch;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
+
+.myname {
+    width: 60%;
+    color: #555684;
+    padding-left: 10px;
+}
+
+.menupunkter {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+
 
 /*3. SPLASH INDSTILLINGER*/
 
@@ -41,21 +57,20 @@ nav {
 
 }
 
-.splash_img {}
 
 .animation1 {
     position: absolute;
     top: 100px;
     width: 100%;
     height: 100%;
-    font-size: 40px;
+    font-size: 6vw;
     text-align: center;
 
 
 
 }
 
-.animation2 {
+#animation2 {
     position: absolute;
     width: 50px;
     top: 700px;
@@ -236,4 +251,42 @@ footer {
     width: 100%;
     text-align: center;
     color: white;
+}
+
+/*8. KLASSER*/
+
+.hide {
+    display: none;
+}
+
+
+/*9. INDSTILLINGER FULD SKÆRM*/
+
+@media only screen and (min-width: 1210px) {
+
+    .hide {
+        display: block;
+    }
+}
+
+/*10. ANIMATIONER*/
+
+#animation2 {
+    animation-name: bounce_arrow_kf;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes bounce_arrow_kf {
+    0% {
+        top: 47vw;
+
+    }
+
+    100% {
+        top: 48vw;
+
+    }
 }
