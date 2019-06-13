@@ -10,6 +10,7 @@ body {
 
 img {
     width: 100%;
+    height: 100%;
 }
 
 p {
@@ -142,6 +143,19 @@ nav {
     justify-content: space-around;
 }
 
+.sectionwrapper a {
+    width: 400px;
+    filter: opacity(40%);
+    height: 270px;
+
+}
+
+.sectionwrapper a:hover {
+    width: 400px;
+    filter: opacity(100%);
+    height: 270px;
+}
+
 .my_work_overskrift {
     padding-left: 10px;
 }
@@ -152,8 +166,8 @@ nav {
     flex-basis: 20;
     border: 1px solid white;
     margin-bottom: 50px;
-    background-image: url(images/stilartsite_cover.png);
-    background-size: cover;
+    background-color: #F3EBEE;
+
 }
 
 .opgave2 {
@@ -162,8 +176,9 @@ nav {
     flex-basis: 20;
     border: 1px solid white;
     margin-bottom: 50px;
-    background-image: url(images/fckfc_cover.png);
-    background-size: cover;
+    background-color: #F3EBEE;
+
+
 }
 
 .opgave3 {
@@ -172,8 +187,7 @@ nav {
     flex-basis: 20;
     border: 1px solid white;
     margin-bottom: 50px;
-    background-image: url(images/kealife_cover.png);
-    background-size: cover;
+
 }
 
 .opgave4 {
@@ -190,6 +204,8 @@ nav {
     flex-basis: 20;
     border: 1px solid white;
     margin-bottom: 50px;
+    background-image: url(images/nextproject.png);
+    background-size: cover;
 }
 
 .opgave6 {
@@ -198,6 +214,8 @@ nav {
     flex-basis: 20;
     border: 1px solid white;
     margin-bottom: 50px;
+    background-image: url(images/nextproject.png);
+    background-size: cover;
 }
 
 /*5. OM MIG*/
@@ -264,14 +282,21 @@ nav {
 }
 
 .knap {
-    width: 100px;
-    padding: 10px;
+    width: 150px;
     background-color: #555684;
     text-align: center;
-    border-radius: 100px;
+    border-radius: 20px;
     color: white;
 
 
+}
+
+.knap a {
+    color: white;
+}
+
+.knap:hover {
+    background-color: #46476C;
 }
 
 /*7.FOOTER */
@@ -281,7 +306,7 @@ footer {
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 100px;
     padding-top: 50px;
     background-color: #555684;
 }
@@ -314,9 +339,128 @@ footer {
 }
 
 
-/*9. INDSTILLINGER FULD SKÆRM*/
+/*!!! SEX OG SAMFUND SIDE !!!*/
 
-@media only screen and (min-width: 1210px) {
+/*9. OVERSKRIFT */
+
+#splash1 {
+    width: 100%;
+
+
+}
+
+.sectionwrapper_ss {
+    padding-top: 100px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #F8F8F8;
+    height: 900px;
+
+
+}
+
+.txt {
+    width: 600px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+
+}
+
+.opg {
+    width: 600px;
+
+}
+
+embed {
+    width: 400px;
+    height: 400px;
+}
+
+/*!!! STILARTSITE !!!*/
+
+.sectionwrapper_stilart {
+    padding-top: 100px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.sectionwrapper_stilart .content {
+    width: 100%;
+    justify-content: space-around;
+    background-color: #F8F8F8;
+    height: 100%;
+
+
+}
+
+.sectionwrapper_stilart .txt {
+    padding-left: 5px;
+    padding-right: 5px;
+
+
+}
+
+.sectionwrapper_stilart .opg {
+    width: 100%;
+
+}
+
+.sectionwrapper_stilart embed {
+    width: 400px;
+    height: 600px;
+    margin: 10px;
+}
+
+
+/*!!! KEA LIFE !!!*/
+
+.sectionwrapper_kealife {
+    padding-top: 100px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.sectionwrapper_kealife .content {
+    width: 100%;
+    height: 1500px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #F8F8F8;
+
+
+}
+
+.txt {
+    width: 600px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+
+}
+
+.opg {
+    width: 600px;
+
+}
+
+
+
+/*. INDSTILLINGER FULD SKÆRM*/
+
+@media only screen and (min-width: 1250px) {
 
     .hide {
         display: block;
@@ -333,7 +477,26 @@ footer {
 
     }
 
-    /*10. ANIMATIONER*/
+    embed {
+        width: 600px;
+    }
+
+    .content {
+        height: 500px;
+    }
+
+    .sectionwrapper_stilart embed {
+        width: 1200px;
+
+    }
+
+    .sectionwrapper_kealife .content {
+        width: 100%;
+        height: 800px;
+
+    }
+
+    /*. ANIMATIONER*/
 
     #animation2 {
         animation-name: bounce_arrow_kf;
