@@ -1,9 +1,12 @@
 /*1. GENERELLE INDSTILLINGER*/
 
+
+
 body {
     margin: 0;
     background-color: #CDC0C5;
     color: #707070;
+    cursor: pointer;
 
 
 }
@@ -47,6 +50,7 @@ a {
     text-decoration: none;
     color: #707070;
     font-family: 'Source Code Pro', monospace;
+
 }
 
 a:hover {
@@ -64,6 +68,7 @@ nav {
     align-content: stretch;
     padding-top: 10px;
     padding-bottom: 10px;
+    z-index: 5;
 
 }
 
@@ -283,7 +288,9 @@ nav {
 
 .knap {
     width: 150px;
+    height: 50px;
     background-color: #555684;
+    padding-top: 0.5px;
     text-align: center;
     border-radius: 20px;
     color: white;
@@ -318,12 +325,12 @@ footer {
     justify-content: space-around;
 }
 
-.logo1 {
-    width: 15px;
-}
+
 
 .logo {
-    width: 30px;
+    width: 45px;
+    height: 45px;
+
 }
 
 .footer_txt {
