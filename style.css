@@ -113,6 +113,7 @@ nav {
 
 
 #animation1 {
+    position: absolute;
     top: 130px;
     width: 100%;
     height: 100%;
@@ -168,7 +169,6 @@ nav {
 .opgave1 {
     flex-basis: 400px;
     height: 270px;
-    flex-basis: 20;
     border: 1px solid white;
     margin-bottom: 50px;
     background-color: #F3EBEE;
@@ -178,7 +178,6 @@ nav {
 .opgave2 {
     flex-basis: 400px;
     height: 270px;
-    flex-basis: 20;
     border: 1px solid white;
     margin-bottom: 50px;
     background-color: #F3EBEE;
@@ -189,7 +188,6 @@ nav {
 .opgave3 {
     flex-basis: 400px;
     height: 270px;
-    flex-basis: 20;
     border: 1px solid white;
     margin-bottom: 50px;
 
@@ -198,7 +196,6 @@ nav {
 .opgave4 {
     flex-basis: 400px;
     height: 270px;
-    flex-basis: 20;
     border: 1px solid white;
     margin-bottom: 50px;
 }
@@ -206,17 +203,14 @@ nav {
 .opgave5 {
     flex-basis: 400px;
     height: 270px;
-    flex-basis: 20;
     border: 1px solid white;
     margin-bottom: 50px;
-    background-image: url(images/nextproject.png);
-    background-size: cover;
+
 }
 
 .opgave6 {
     flex-basis: 400px;
     height: 270px;
-    flex-basis: 20;
     border: 1px solid white;
     margin-bottom: 50px;
     background-image: url(images/nextproject.png);
@@ -463,6 +457,10 @@ embed {
 
 }
 
+iframe {
+    border: 0;
+}
+
 
 
 /*. INDSTILLINGER FULD SKÆRM*/
@@ -503,24 +501,26 @@ embed {
 
     }
 
-    /*. ANIMATIONER*/
+}
 
-    #animation2 {
-        animation-name: bounce_arrow_kf;
-        animation-duration: 0.7s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-        animation-direction: alternate;
+/*. ANIMATIONER*/
+
+#animation2 {
+    animation-name: bounce_arrow_kf;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes bounce_arrow_kf {
+    0% {
+        top: 47vw;
+
     }
 
-    @keyframes bounce_arrow_kf {
-        0% {
-            top: 47vw;
+    100% {
+        top: 48vw;
 
-        }
-
-        100% {
-            top: 48vw;
-
-        }
     }
+}
